@@ -9,17 +9,8 @@ const Stack = createNativeStackNavigator();
 const AppNavigator = () => {
   return (
     <Stack.Navigator>
-        <Stack.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{title: 'Welcome'}}
-        />
-
-        <Stack.Screen 
-            name="Profile" 
-            component={ProfileScreen} 
-        />
-
+        <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Profile" component={ProfileScreen} />
       </Stack.Navigator>
   );
 }

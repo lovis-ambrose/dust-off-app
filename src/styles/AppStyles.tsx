@@ -25,9 +25,9 @@ export const AppStyles = {
     blue: "#3293fe"
   },
   fontSize: {
-    title: 30,
-    content: 20,
-    normal: 16
+    title: {fontSize: 30},
+    content: {fontSize: 20},
+    normal: {fontSize: 16}
   },
   buttonWidth: {
     main: "70%"
@@ -54,10 +54,10 @@ export const AppIcon = {
     height: 25
   },
   images: {
-    home: require("../assets/icons/home.png"),
-    defaultUser: require("../assets/icons/default_user.jpg"),
-    logout: require("../assets/icons/shutdown.png"),
-    menu: require("../assets/icons/menu.png")
+    home: require("../../assets/icons/home.png"),
+    defaultUser: require("../../assets/icons/default_user.jpg"),
+    logout: require("../../assets/icons/shutdown.png"),
+    menu: require("../../assets/icons/menu.png")
   }
 };
 
